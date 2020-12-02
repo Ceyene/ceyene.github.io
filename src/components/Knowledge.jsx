@@ -11,7 +11,7 @@ import {
 import {
   faUniversalAccess,
   faCodeBranch,
-} from "@fortawesome/free-brands-svg-icons";
+} from "@fortawesome/free-solid-svg-icons";
 
 const Knowledge = () => {
   return (
