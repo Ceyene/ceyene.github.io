@@ -1,10 +1,12 @@
 //components
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Knowledge from "./components/Knowledge";
-import ProjectsContainer from "./components/ProjectsContainer";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import {
+  Hero,
+  About,
+  Knowledge,
+  ProjectsContainer,
+  Contact,
+  Footer,
+} from "./components";
 
 function App() {
   return (

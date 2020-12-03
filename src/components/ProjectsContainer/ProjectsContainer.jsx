@@ -1,9 +1,9 @@
 //dependencies
 import React from "react";
 //projects data
-import projectsData from "../assets/projectsData";
+import projectsData from "../../assets/projectsData";
 //components
-import Project from "./Project";
+import Project from "../index.js";
 
 const Projects = () => {
   return (
