@@ -8,7 +8,7 @@ import {
   Footer,
 } from "./components";
 //styles
-import GlobalStyle, { GlobalStyles } from "./globalStyles";
+import GlobalStyle from "./globalStyles";
 
 function App() {
   return (

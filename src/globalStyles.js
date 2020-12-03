@@ -39,7 +39,6 @@ export const Button = styled.button`
 `;
 
 export const StyledMainTitle = styled.h1`
-  font-weight: 600;
   font-family: "Averia Serif Libre", cursive;
   font-size: 2.25rem;
   line-height: 2.625rem;
@@ -52,10 +51,9 @@ export const StyledMainTitle = styled.h1`
 `;
 
 export const StyledSecondaryTitle = styled.h2`
-  font-weight: 500;
+  font-style: italic;
   font-family: "Averia Serif Libre", cursive;
-  font-size: 1.5rem;
-  text-align: center;
+  font-size: 2rem;
 
   @media screen and (min-width: 900px) {
     font-size: 3rem;
@@ -64,7 +62,7 @@ export const StyledSecondaryTitle = styled.h2`
 `;
 
 export const StyledTertiaryTitle = styled.h3`
-  font-weight: 400;
+  font-weight: 500;
   font-family: "Averia Serif Libre", cursive;
   font-size: 1rem;
   line-height: 1.75rem;
@@ -77,13 +75,14 @@ export const StyledTertiaryTitle = styled.h3`
 `;
 
 export const StyledText = styled.p`
-  font-size: 0.875rem;
-  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Work Sans", sans-serif;
   line-height: 1.375rem;
   padding: 1rem 0;
 
   @media screen and (min-width: 900px) {
-    font-size: 1rem;
+    font-size: 1.25rem;
     line-height: 1.5rem;
   }
 `;
@@ -98,6 +97,11 @@ export const SocialContainer = styled.div`
   display: flex;
   justify-content: space-around;
   padding: 2.25rem;
+  width: 100%;
+
+  @media screen and (min-width: 900px) {
+    max-width: 40vw;
+  }
 `;
 
 export default GlobalStyle;
