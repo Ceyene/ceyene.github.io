@@ -1,12 +1,17 @@
 //dependencies
 import React from "react";
+//styles
+import { StyledHero, MainTitle } from "./Hero.elements";
+import { StyledText } from "../../globalStyles";
 
 const Hero = () => {
   return (
-    <section className="Hero">
-      <h1 className="Hero__maintitle">Hi, I´m Cynthia Romero</h1>
-      <p className="Hero__maintitle-text">Web Developer</p>
-    </section>
+    <>
+      <StyledHero>
+        <MainTitle>Hi, I´m Cynthia Romero</MainTitle>
+        <StyledText>Web Developer</StyledText>
+      </StyledHero>
+    </>
   );
 };
 

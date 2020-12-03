@@ -1,36 +1,93 @@
 import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Montserrat:wght@400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+  background-color: #ffffff;
+  color: #060a24;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
 `;
 
-body {
-    background-color: $back-color;
-    color: $darker-color;
-    font-family: $main-font;
-    font-size: 16px;
-}
+export const StyledA = styled.a`
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #060a24;
+  letter-spacing: 0;
+  font-size: 1rem;
+  line-height: 1.75rem;
 
-a {
-    text-decoration: none;
-    color: $darker-color;
-}
+  @media screen and (min-width: 900px) {
+    &:hover {
+      color: #25c0d2;
+    }
 
-const StyledMainTitle = styled.h1``;
+    &:active {
+      color: rgba(6, 10, 35, 0.56);
+    }
+  }
+`;
 
-const StyledSecondaryTitle = 
-h1,
-h2,
-h3 {
-    font-weight: 600;
-}
+export const StyledMainTitle = styled.h1`
+  font-weight: 600;
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 2.25rem;
+  line-height: 2.625rem;
+  letter-spacing: 0;
 
-ul {
-    list-style: none;
-}
+  @media screen and (min-width: 900px) {
+    font-size: 4rem;
+    line-height: 4.6rem;
+  }
+`;
 
+export const StyledSecondaryTitle = styled.h2`
+  font-weight: 500;
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 1.5rem;
+  text-align: center;
 
+  @media screen and (min-width: 900px) {
+    font-size: 3rem;
+    line-height: 3.375rem;
+  }
+`;
+
+export const StyledTertiaryTitle = styled.h3`
+  font-weight: 400;
+  font-family: "Averia Serif Libre", cursive;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  padding-top: 1rem;
+
+  @media screen and (min-width: 900px) {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+  }
+`;
+
+export const StyledText = styled.p`
+  font-size: 0.875rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.375rem;
+  padding: 1rem 0;
+
+  @media screen and (min-width: 900px) {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+`;
+
+export const StyledUl = styled.ul`
+  list-style: none;
+`;
+
+export default GlobalStyle;

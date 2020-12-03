@@ -7,10 +7,13 @@ import {
   Contact,
   Footer,
 } from "./components";
+//styles
+import GlobalStyle, { GlobalStyles } from "./globalStyles";
 
 function App() {
   return (
     <div className="App">
+      <GlobalStyle />
       <Hero />
       <About />
       <Knowledge />
