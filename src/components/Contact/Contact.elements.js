@@ -15,12 +15,6 @@ export const ContactTitle = styled(StyledSecondaryTitle)`
   ${StyledSecondaryTitle}
 `;
 
-export const ContactSocial = styled.div`
-  display: flex;
-  justify-content: space-around;
-  padding: 2.25rem;
-`;
-
 export const ContactButton = styled(Button)`
   color: #e04064;
   border-color: #e04064;

@@ -94,4 +94,10 @@ export const FlexSection = styled.section`
   align-items: center;
 `;
 
+export const SocialContainer = styled.div`
+  display: flex;
+  justify-content: space-around;
+  padding: 2.25rem;
+`;
+
 export default GlobalStyle;
