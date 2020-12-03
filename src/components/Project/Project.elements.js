@@ -1,7 +1,7 @@
 //dependencies
 import styled from "styled-components";
 //global styles
-import { StyledTertiaryTitle, StyledText } from "../../globalStyles";
+import { StyledTertiaryTitle, StyledText, Button } from "../../globalStyles";
 
 export const StyledProject = styled.div`
   margin: 1rem;
@@ -26,12 +26,8 @@ export const ProjectDescription = styled(StyledText)`
   ${StyledText}
 `;
 
-export const ProjectButton = styled.button`
-  display: inline-block;
+export const ProjectButton = styled(Button)`
   color: #ffffff;
-  font-size: 1rem;
-  margin: 1rem auto;
-  padding: 0.25rem 1rem;
-  border: 0.15rem solid #ffffff;
-  border-radius: 0.2rem;
+  border-color: #ffffff;
+  ${Button}
 `;

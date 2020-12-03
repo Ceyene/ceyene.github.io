@@ -17,13 +17,15 @@ body{
 }
 `;
 
-export const StyledA = styled.a`
+export const Button = styled.button`
   text-decoration: none;
-  text-transform: uppercase;
-  color: #060a24;
-  letter-spacing: 0;
+  display: inline-block;
   font-size: 1rem;
-  line-height: 1.75rem;
+  margin: 1rem auto;
+  padding: 0.25rem 1rem;
+  border-width: 0.15rem;
+  border-style: solid;
+  border-radius: 0.2rem;
 
   @media screen and (min-width: 900px) {
     &:hover {
@@ -86,8 +88,10 @@ export const StyledText = styled.p`
   }
 `;
 
-export const StyledUl = styled.ul`
-  list-style: none;
+export const FlexSection = styled.section`
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export default GlobalStyle;
