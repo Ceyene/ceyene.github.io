@@ -3,13 +3,19 @@ import React from "react";
 //projects data
 import projectsData from "../../assets/projectsData";
 //components
-import Project from "../index.js";
+import Project from "../../components/Project/Project";
+//styles
+import {
+  StyledProjectsContainer,
+  ProjectsSectionTitle,
+  ProjectsExamples,
+} from "./ProjectsContainer.elements";
 
 const Projects = () => {
   return (
-    <section className="Projects">
-      <h2 className="Project__title">Projects:</h2>
-      <div className="Projects__examples">
+    <StyledProjectsContainer>
+      <ProjectsSectionTitle>Projects:</ProjectsSectionTitle>
+      <ProjectsExamples>
         {projectsData.map((project) => (
           <Project
             key={project.id}
@@ -19,8 +25,8 @@ const Projects = () => {
             photo={project.photo}
           />
         ))}
-      </div>
-    </section>
+      </ProjectsExamples>
+    </StyledProjectsContainer>
   );
 };
 
