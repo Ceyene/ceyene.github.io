@@ -12,41 +12,52 @@ import {
   faUniversalAccess,
   faCodeBranch,
 } from "@fortawesome/free-solid-svg-icons";
+//component styles
+import {
+  StyledKnowledge,
+  KnowledgeContainer,
+  KnowledgeTech,
+} from "./Hero.elements";
+//global styles
+import { StyledSecondaryTitle, StyledTertiaryTitle } from "../../globalStyles";
 
 const Knowledge = () => {
   return (
-    <section className="Knowledge">
-      <h2 className="Knowledge__title">Tecnologies learned:</h2>
-      <div className="Knowledge__container">
-        <div className="Knowledge__tech">
+    <StyledKnowledge>
+      <StyledSecondaryTitle>Tecnologies learned:</StyledSecondaryTitle>
+      <KnowledgeContainer>
+        <KnowledgeTech>
           <FontAwesomeIcon icon={faReact} className="Knowledge__tech-icon" />
-          <h3 className="Knowledge__tech-description">React</h3>
-        </div>
-        <div className="Knowledge__tech">
+          <StyledTertiaryTitle>React</StyledTertiaryTitle>
+        </KnowledgeTech>
+        <KnowledgeTech>
           <FontAwesomeIcon
             icon={faUniversalAccess}
             className="Knowledge__tech-icon"
           />
-          <h3 className="Knowledge__tech-description">Accesibility</h3>
-        </div>
-      </div>
-      <div className="Knowledge__tech">
-        <FontAwesomeIcon icon={faCodeBranch} className="Knowledge__tech-icon" />
-        <h3 className="Knowledge__tech-description">Git / gitHub</h3>
-      </div>
-      <div className="Knowledge__tech">
-        <FontAwesomeIcon icon={faHtml5} className="Knowledge__tech-icon" />
-        <h3 className="Knowledge__tech-description">HTML5</h3>
-      </div>
-      <div className="Knowledge__tech">
-        <FontAwesomeIcon icon={faCss3Alt} className="Knowledge__tech-icon" />
-        <h3 className="Knowledge__tech-description">CSS3</h3>
-      </div>
-      <div className="Knowledge__tech">
-        <FontAwesomeIcon icon={faJs} className="Knowledge__tech-icon" />
-        <h3 className="Knowledge__tech-description">Javascript</h3>
-      </div>
-    </section>
+          <StyledTertiaryTitle>Accesibility</StyledTertiaryTitle>
+        </KnowledgeTech>
+        <KnowledgeTech>
+          <FontAwesomeIcon
+            icon={faCodeBranch}
+            className="Knowledge__tech-icon"
+          />
+          <StyledTertiaryTitle>Git / gitHub</StyledTertiaryTitle>
+        </KnowledgeTech>
+        <KnowledgeTech>
+          <FontAwesomeIcon icon={faHtml5} className="Knowledge__tech-icon" />
+          <StyledTertiaryTitle>HTML5</StyledTertiaryTitle>
+        </KnowledgeTech>
+        <KnowledgeTech>
+          <FontAwesomeIcon icon={faCss3Alt} className="Knowledge__tech-icon" />
+          <StyledTertiaryTitle>CSS3</StyledTertiaryTitle>
+        </KnowledgeTech>
+        <KnowledgeTech>
+          <FontAwesomeIcon icon={faJs} className="Knowledge__tech-icon" />
+          <StyledTertiaryTitle>Javascript</StyledTertiaryTitle>
+        </KnowledgeTech>
+      </KnowledgeContainer>
+    </StyledKnowledge>
   );
 };
 
