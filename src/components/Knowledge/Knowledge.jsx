@@ -5,12 +5,6 @@ import {
   StyledKnowledge,
   KnowledgeContainer,
   KnowledgeTech,
-  A11yIcon,
-  ReactIcon,
-  GitIcon,
-  CssIcon,
-  HtmlIcon,
-  JsIcon,
 } from "./Knowledge.elements";
 //global styles
 import { StyledSecondaryTitle, StyledTertiaryTitle } from "../../globalStyles";
@@ -21,27 +15,27 @@ const Knowledge = () => {
       <StyledSecondaryTitle>Tecnologies learned:</StyledSecondaryTitle>
       <KnowledgeContainer>
         <KnowledgeTech>
-          <ReactIcon />
+          {/*<ReactIcon />*/}
           <StyledTertiaryTitle>React</StyledTertiaryTitle>
         </KnowledgeTech>
         <KnowledgeTech>
-          <A11yIcon />
+          {/*<A11yIcon />*/}
           <StyledTertiaryTitle>Accesibility</StyledTertiaryTitle>
         </KnowledgeTech>
         <KnowledgeTech>
-          <GitIcon />
+          {/*<GitIcon />*/}
           <StyledTertiaryTitle>Git / gitHub</StyledTertiaryTitle>
         </KnowledgeTech>
         <KnowledgeTech>
-          <HtmlIcon />
+          {/*<HtmlIcon />*/}
           <StyledTertiaryTitle>HTML5</StyledTertiaryTitle>
         </KnowledgeTech>
         <KnowledgeTech>
-          <CssIcon />
+          {/*<CssIcon />*/}
           <StyledTertiaryTitle>CSS3</StyledTertiaryTitle>
         </KnowledgeTech>
         <KnowledgeTech>
-          <JsIcon />
+          {/*<JsIcon />*/}
           <StyledTertiaryTitle>Javascript</StyledTertiaryTitle>
         </KnowledgeTech>
       </KnowledgeContainer>

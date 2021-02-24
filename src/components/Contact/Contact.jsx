@@ -1,14 +1,8 @@
 //dependencies
 import React from "react";
 //component styles
-import {
-  StyledContact,
-  ContactTitle,
-  ContactButton,
-  LinkedInIcon,
-  EmailIcon,
-} from "./Contact.elements";
 import { SocialContainer } from "../../globalStyles";
+import { StyledContact, ContactTitle, ContactButton } from "./Contact.elements";
 
 const Contact = () => {
   return (
@@ -16,10 +10,10 @@ const Contact = () => {
       <ContactTitle>Let´s work togheter:</ContactTitle>
       <SocialContainer>
         <ContactButton as="a" href="https://www.linkedin.com/in/ce-y-ene/">
-          <LinkedInIcon />
+          {/* <LinkedIcon /> */}
         </ContactButton>
         <ContactButton as="a" href="https://forms.gle/qEC3n2c97cBwHZez5">
-          <EmailIcon />
+          {/*<EmailIcon />*/}
         </ContactButton>
       </SocialContainer>
     </StyledContact>

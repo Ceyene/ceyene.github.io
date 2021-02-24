@@ -1,10 +1,10 @@
 //dependencies
 import React from "react";
 //styles
-import { StyledHero, MainTitle } from "./Hero.elements";
+import { StyledHero, MainTitle } from "./Home.elements";
 import { StyledText } from "../../globalStyles";
 
-const Hero = () => {
+const Home = () => {
   return (
     <>
       <StyledHero>
@@ -15,4 +15,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;
