@@ -1,3 +1,4 @@
+//dependencies
 import styled, { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
@@ -10,10 +11,28 @@ const GlobalStyle = createGlobalStyle`
 }
 
 body{
-  background-color: #ffffff;
-  color: #060a24;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 19px;
+  color: #555555;
+  background: linear-gradient(to right, #efefbb, #d4d3dd);
+  line-height: 1.75;
+  letter-spacing: 0.07rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #7d6386;
 }
 `;
 

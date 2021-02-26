@@ -1,15 +1,11 @@
 //components
-import { Home, Footer } from "./components";
-//styles
-import GlobalStyle from "./globalStyles";
+import { Layout } from "./components";
 
 function App() {
   return (
-    <div className="App">
-      <GlobalStyle />
-      <Home />
-      <Footer />
-    </div>
+    <>
+      <Layout />
+    </>
   );
 }
 
