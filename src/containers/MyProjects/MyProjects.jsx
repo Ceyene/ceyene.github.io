@@ -9,9 +9,9 @@ import {
   StyledProjectsContainer,
   ProjectsSectionTitle,
   ProjectsExamples,
-} from "./ProjectsContainer.elements";
+} from "./MyProjects.elements";
 
-const Projects = () => {
+const MyProjects = () => {
   return (
     <StyledProjectsContainer>
       <ProjectsSectionTitle>Projects:</ProjectsSectionTitle>
@@ -30,4 +30,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default MyProjects;
