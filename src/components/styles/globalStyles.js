@@ -113,6 +113,19 @@ export const StyledText = styled.p`
   }
 `;
 
+export const StyledSmallText = styled.p`
+  margin: auto;
+  font-size: 0.813rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+
+  @media screen and (min-width: 900px) {
+    font-size: 0.95rem;
+    line-height: 1.5rem;
+  }
+`;
+
 export const FlexSection = styled.section`
   display: flex;
   justify-content: center;

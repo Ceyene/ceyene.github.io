@@ -1,30 +1,38 @@
 //dependencies
 import React from "react";
+//styles
+import {
+  StyledNavbar,
+  StyledNavUl,
+  StyledNavLi,
+  StyledNavA,
+  DesktopMenu,
+} from "./Navbar.elements";
 
 const Navbar = () => {
   return (
-    <nav className="nav">
-      <ul>
-        <li>
-          <a href="#">
+    <StyledNavbar>
+      <StyledNavUl>
+        <StyledNavLi>
+          <StyledNavA href="/projects">
             <i className="fas fa-laptop-code"></i>
-            <span className="desktopMenu">My projects</span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
+            <DesktopMenu>My projects</DesktopMenu>
+          </StyledNavA>
+        </StyledNavLi>
+        <StyledNavLi>
+          <StyledNavA href="/aboutme">
             <i className="fas fa-user"></i>
-            <span className="desktopMenu">About me</span>
-          </a>
-        </li>
-        <li>
-          <a href="./contact.html">
+            <DesktopMenu>About me</DesktopMenu>
+          </StyledNavA>
+        </StyledNavLi>
+        <StyledNavLi>
+          <StyledNavA href="./contact.html">
             <i className="fas fa-envelope"></i>
-            <span className="desktopMenu">Contact me</span>
-          </a>
-        </li>
-      </ul>
-    </nav>
+            <DesktopMenu>Contact me</DesktopMenu>
+          </StyledNavA>
+        </StyledNavLi>
+      </StyledNavUl>
+    </StyledNavbar>
   );
 };
 

@@ -5,7 +5,7 @@ import Navbar from "./Navbar/Navbar";
 import Container from "./Container/Container";
 import Footer from "./Footer/Footer";
 //styles
-import GlobalStyle from "./globalStyles";
+import GlobalStyle from "../styles/globalStyles";
 
 const Layout = (props) => {
   return (
