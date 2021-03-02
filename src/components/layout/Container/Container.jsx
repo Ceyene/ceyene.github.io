@@ -3,8 +3,8 @@ import React from "react";
 //styles
 import { StyledContainer } from "./Container.elements";
 
-const Container = () => {
-  return <StyledContainer></StyledContainer>;
+const Container = ({ children }) => {
+  return <StyledContainer>{children}</StyledContainer>;
 };
 
 export default Container;

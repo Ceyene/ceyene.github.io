@@ -8,14 +8,13 @@ export const StyledContainer = styled.div`
   border-right: 0.13rem solid #7d6386;
   text-align: center;
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
   background-color: #ffffff;
 
   @media screen and (min-width: 768px) {
     width: 85vw;
     max-width: 75rem;
-    flex-direction: row;
     padding: 0.5rem;
   }
 `;

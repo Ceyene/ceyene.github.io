@@ -9,7 +9,6 @@ export const StyledNavbar = styled.nav`
   margin-top: 0;
 
   @media screen and (min-width: 768px) {
-    margin-top: 1rem;
     justify-content: flex-end;
     width: 85vw;
   }

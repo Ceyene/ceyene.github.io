@@ -7,12 +7,12 @@ import Footer from "./Footer/Footer";
 //styles
 import GlobalStyle from "../styles/globalStyles";
 
-const Layout = (props) => {
+const Layout = ({ children }) => {
   return (
     <>
       <GlobalStyle />
       <Navbar />
-      <Container>{props.children}</Container>
+      <Container>{children}</Container>
       <Footer />
     </>
   );

@@ -95,26 +95,24 @@ export const StyledTertiaryTitle = styled.h3`
   font-size: 1.1rem;
 
   @media screen and (min-width: 900px) {
-    font-size: 1.75rem;
-    line-height: 1.75rem;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
   }
 `;
 
 export const StyledText = styled.p`
-  margin: auto;
   font-size: 0.813rem;
   text-align: right;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 
   @media screen and (min-width: 900px) {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 0.833rem;
+    line-height: 1rem;
   }
 `;
 
 export const StyledSmallText = styled.p`
-  margin: auto;
   font-size: 0.813rem;
   text-align: center;
   text-transform: uppercase;
@@ -126,10 +124,17 @@ export const StyledSmallText = styled.p`
   }
 `;
 
-export const FlexSection = styled.section`
+export const FlexDiv = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 1rem;
+`;
+
+export const RoundImg = styled.img`
+  border-radius: 50%;
+  box-shadow: 0.625rem 0.625rem 0.313rem 0rem rgba(227, 220, 227, 0.68);
 `;
 
 export default GlobalStyle;
