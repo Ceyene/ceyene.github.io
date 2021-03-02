@@ -1,7 +1,11 @@
 //dependencies
 import styled from "styled-components";
 //global styles
-import { StyledTertiaryTitle, StyledText, Button } from "../../globalStyles";
+import {
+  StyledTertiaryTitle,
+  StyledText,
+  Button,
+} from "../../styles/globalStyles";
 
 export const StyledProject = styled.div`
   margin: 1rem;

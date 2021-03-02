@@ -82,7 +82,7 @@ export const StyledMainTitle = styled.h1`
 
 export const StyledSecondaryTitle = styled.h2`
   font-style: italic;
-  font-family: "Averia Serif Libre", cursive;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
 
   @media screen and (min-width: 900px) {

@@ -1,7 +1,7 @@
 //dependencies
 import styled from "styled-components";
 //global styles
-import { StyledSecondaryTitle } from "../../globalStyles";
+import { StyledSecondaryTitle } from "../../components/styles/globalStyles";
 
 export const StyledProjectsContainer = styled.section`
   padding: 3.5rem 1rem;

@@ -1,9 +1,9 @@
 //dependencies
 import React from "react";
 //projects data
-import projectsData from "../../assets/projectsData";
+import projectsData from "../../util/projectsData";
 //components
-import Project from "../../components/Project/Project";
+import Project from "../../components/scenes/MyProjects/Project";
 //styles
 import {
   StyledProjectsContainer,
