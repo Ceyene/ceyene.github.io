@@ -1,5 +1,6 @@
 //dependencies
 import React from "react";
+import { Link } from "react-router-dom";
 //styles
 import {
   StyledNavbar,
@@ -14,21 +15,27 @@ const Navbar = () => {
     <StyledNavbar>
       <StyledNavUl>
         <StyledNavLi>
-          <StyledNavA href="/projects">
-            <i className="fas fa-laptop-code"></i>
-            <DesktopMenu>My projects</DesktopMenu>
+          <StyledNavA>
+            <Link to="/projects">
+              <i className="fas fa-laptop-code"></i>
+              <DesktopMenu>My projects</DesktopMenu>
+            </Link>
           </StyledNavA>
         </StyledNavLi>
         <StyledNavLi>
-          <StyledNavA href="/aboutme">
-            <i className="fas fa-user"></i>
-            <DesktopMenu>About me</DesktopMenu>
+          <StyledNavA>
+            <Link to="/about">
+              <i className="fas fa-user"></i>
+              <DesktopMenu>About me</DesktopMenu>
+            </Link>
           </StyledNavA>
         </StyledNavLi>
         <StyledNavLi>
-          <StyledNavA href="./contact.html">
-            <i className="fas fa-envelope"></i>
-            <DesktopMenu>Contact me</DesktopMenu>
+          <StyledNavA>
+            <Link to="/contact">
+              <i className="fas fa-envelope"></i>
+              <DesktopMenu>Contact me</DesktopMenu>
+            </Link>
           </StyledNavA>
         </StyledNavLi>
       </StyledNavUl>

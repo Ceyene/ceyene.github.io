@@ -41,22 +41,24 @@ export const StyledNavLi = styled.li`
   }
 `;
 
-export const StyledNavA = styled.a`
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size: 2.2rem;
-  color: #7d638681;
+export const StyledNavA = styled.span`
+  a {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 2.2rem;
+    color: #7d638681;
 
-  &::active {
-    color: #7d6386;
-  }
+    &::active {
+      color: #7d6386;
+    }
 
-  @media screen and (min-width: 768px) {
-    font-size: 0.813rem;
-    color: #7d6386;
+    @media screen and (min-width: 768px) {
+      font-size: 0.813rem;
+      color: #7d6386;
 
-    &:hover {
-      color: #ffffff;
+      &:hover {
+        color: #ffffff;
+      }
     }
   }
 `;
