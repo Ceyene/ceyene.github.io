@@ -19,13 +19,25 @@ const ContactMe = () => {
         work together!
       </StyledText>
       <SocialDiv>
-        <ContactButton as="a" href="https://www.linkedin.com/in/ce-y-ene/">
+        <ContactButton
+          as="a"
+          href="https://www.linkedin.com/in/ce-y-ene/"
+          target="_blank"
+        >
           {/* <LinkedIcon /> */}
         </ContactButton>
-        <ContactButton as="a" href="https://www.github.com/Ceyene">
+        <ContactButton
+          as="a"
+          href="https://www.github.com/Ceyene"
+          target="_blank"
+        >
           {/*<GitHubIcon />*/}
         </ContactButton>
-        <ContactButton as="a" href="https://forms.gle/qEC3n2c97cBwHZez5">
+        <ContactButton
+          as="a"
+          href="https://forms.gle/qEC3n2c97cBwHZez5"
+          target="_blank"
+        >
           {/*<EmailIcon />*/}
         </ContactButton>
       </SocialDiv>

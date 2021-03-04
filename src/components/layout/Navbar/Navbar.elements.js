@@ -37,6 +37,10 @@ export const StyledNavLi = styled.li`
       border-color: #ffffff;
       background-color: #ccb0c2;
       color: #ffffff;
+
+      a {
+        color: #ffffff;
+      }
     }
   }
 `;

@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Button } from "../../styles/globalStyles";
 
 export const StyledSocialButton = styled(Button)`
-  color: #e04064;
-  border-color: #e04064;
+  color: #c5c52e;
+  border-color: #c5c52e;
   ${Button}
 `;

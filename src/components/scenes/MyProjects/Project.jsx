@@ -7,18 +7,22 @@ import {
   ProjectTitle,
   ProjectDescription,
   ProjectButton,
+  ProjectImg,
 } from "./Project.elements";
 
-const Project = ({ key, name, description, address, photo }) => {
+const Project = ({ key, name, description, address, repo, photo }) => {
   return (
     <StyledProject key={key}>
-      <img src={photo} alt={name} />
+      <ProjectImg src={photo} alt={name} />
       <ProjectInfo>
         <ProjectTitle>{name}</ProjectTitle>
-        <ProjectButton as="a" href={address}>
+        <ProjectDescription>{description}</ProjectDescription>
+        <ProjectButton as="a" href={address} target="_blank">
           Clic here and visit it
         </ProjectButton>
-        <ProjectDescription>{description}</ProjectDescription>
+        <ProjectButton as="a" href={repo} target="_blank">
+          See the repository
+        </ProjectButton>
       </ProjectInfo>
     </StyledProject>
   );

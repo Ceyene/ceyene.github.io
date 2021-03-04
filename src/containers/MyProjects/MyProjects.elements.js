@@ -1,26 +1,20 @@
 //dependencies
 import styled from "styled-components";
 //global styles
-import { StyledSecondaryTitle } from "../../components/styles/globalStyles";
+import { StyledSection } from "../../components/styles/globalStyles";
 
-export const StyledProjectsContainer = styled.section`
-  padding: 3.5rem 1rem;
-  background-image: linear-gradient(
-    25deg,
-    rgba(70, 3, 132, 1) 0%,
-    rgba(37, 192, 210, 1) 50%,
-    rgba(224, 64, 100, 1) 100%
-  );
-`;
+export const StyledProjectsContainer = styled(StyledSection)`
+  padding: 2.5rem 5% 4.5rem 5%;
 
-export const ProjectsSectionTitle = styled(StyledSecondaryTitle)`
-  color: #ffffff;
-  ${StyledSecondaryTitle}
+  @media screen and (min-width: 900px) {
+    padding: 2.5rem 15% 5.5rem 15%;
+  }
+  ${StyledSection}
 `;
 
 export const ProjectsExamples = styled.div`
-  justify-items: center;
   padding-top: 1rem;
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 `;

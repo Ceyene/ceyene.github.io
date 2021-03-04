@@ -9,6 +9,16 @@ export const StyledHomeLink = styled.div`
   left: 1.5rem;
   border-radius: 1rem;
 
+  @media screen and (min-width: 900px) {
+    &:hover {
+      background: linear-gradient(to right, #e8cbc0, #7d6386);
+      border-color: #ffffff;
+      a {
+        color: #ffffff;
+      }
+    }
+  }
+
   a {
     padding: 1rem 2.5rem;
     margin-top: 1.5rem;
@@ -21,6 +31,7 @@ export const StyledHomeLink = styled.div`
     border-radius: 0.5rem;
     text-decoration: none;
     outline: none;
+
     @media screen and (min-width: 900px) {
       padding: 1rem 4rem;
       border-radius: 1.5rem;

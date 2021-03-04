@@ -40,15 +40,16 @@ export const Button = styled.button`
   text-decoration: none;
   display: inline-block;
   font-size: 1rem;
-  margin: 1rem auto;
+  margin: 0.5rem;
   padding: 0.25rem 1rem;
   border-width: 0.15rem;
   border-style: solid;
-  border-radius: 0.2rem;
+  border-radius: 1.5rem;
 
   @media screen and (min-width: 900px) {
     &:hover {
-      color: #25c0d2;
+      background-color: #c5c52e;
+      color: #ffffff;
     }
 
     &:active {
@@ -96,7 +97,6 @@ export const StyledTertiaryTitle = styled.h3`
   font-size: 1rem;
 
   @media screen and (min-width: 900px) {
-    font-size: 1rem;
     line-height: 1.2rem;
   }
 `;
