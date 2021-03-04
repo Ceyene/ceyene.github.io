@@ -81,34 +81,36 @@ export const StyledMainTitle = styled.h1`
 `;
 
 export const StyledSecondaryTitle = styled.h2`
-  font-style: italic;
   font-family: "Montserrat", sans-serif;
-  font-size: 2rem;
+  text-align: left;
+  color: #c5c52e;
+  font-size: 1rem;
 
   @media screen and (min-width: 900px) {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 `;
 
 export const StyledTertiaryTitle = styled.h3`
   text-align: left;
-  font-size: 1.1rem;
+  font-size: 1rem;
 
   @media screen and (min-width: 900px) {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.2rem;
   }
 `;
 
 export const StyledText = styled.p`
   font-size: 0.813rem;
+  line-height: 0.85rem;
   text-align: right;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
 
   @media screen and (min-width: 900px) {
     font-size: 0.833rem;
-    line-height: 1rem;
+    line-height: 0.9rem;
   }
 `;
 
@@ -130,6 +132,12 @@ export const FlexDiv = styled.div`
   justify-content: center;
   align-items: center;
   padding: 1rem;
+`;
+
+export const StyledSection = styled.section`
+  padding: 2.25rem 1rem;
+  transition: opacity 0.5s ease-in-out;
+  position: relative;
 `;
 
 export const RoundImg = styled.img`

@@ -1,12 +1,11 @@
 //dependencies
 import styled from "styled-components";
 //global styles
-import { FlexDiv } from "../../components/styles/globalStyles";
+import { FlexDiv, StyledSection } from "../../components/styles/globalStyles";
 
-export const StyledContact = styled.section`
-  padding: 2.25rem 1rem;
-  position: relative;
+export const StyledContact = styled(StyledSection)`
   min-height: calc(100vh - 15vh);
+  ${StyledSection}
 `;
 
 export const SocialDiv = styled(FlexDiv)`
