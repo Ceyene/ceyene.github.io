@@ -4,7 +4,7 @@ const projectsData = [
     name: "Rewards Store",
     photo: "./images/RewardsStore.jpg",
     description:
-      "Final proyect for Acamica's Front End Web Developer Course. Made with React, using functional components and Hooks. Layout: Mobile First.",
+      "Final project for Acamica's Front End Web Developer Course. Made with React, using functional components and Hooks. Layout: Mobile First.",
     link: "https://ceyene.github.io/StoreRomeroCynthia",
     repo: "https://github.com/Ceyene/StoreRomeroCynthia",
   },
@@ -13,7 +13,7 @@ const projectsData = [
     name: "Hotel Reservation",
     photo: "./images/descansar.jpg",
     description:
-      "Third proyect for Acamica's Front End Web Developer Course. Made with React, using functional components and Hooks. Layout: Mobile First.",
+      "Third project for Acamica's Front End Web Developer Course. Made with React, using functional components and Hooks. Layout: Mobile First.",
     link: "https://npxdz.csb.app/",
     repo: "https://github.com/Ceyene/DescansarPuntoCom",
   },
@@ -22,7 +22,7 @@ const projectsData = [
     name: "GIFOS Search",
     photo: "./images/gifos.jpg",
     description:
-      "My second proyect for Acamica's Front End Web Developer Course. Made with: HTML5, CSS3 and Vainilla JavaScript. Layout: Mobile First.",
+      "My second project for Acamica's Front End Web Developer Course. Made with: HTML5, CSS3 and Vainilla JavaScript. Layout: Mobile First.",
     link: "https://searchgifos.netlify.app/",
     repo: "https://github.com/Ceyene/GIFOS",
   },

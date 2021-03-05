@@ -1,6 +1,6 @@
 //dependencies
 import React from "react";
-//component styles
+//styled components
 import {
   StyledProject,
   ProjectInfo,
@@ -9,6 +9,9 @@ import {
   ProjectButton,
   ProjectImg,
 } from "./Project.elements";
+//styled icons
+import { Github } from "@styled-icons/bootstrap/Github";
+import { Globe } from "@styled-icons/bootstrap/Globe";
 
 const Project = ({ key, name, description, address, repo, photo }) => {
   return (
@@ -18,9 +21,11 @@ const Project = ({ key, name, description, address, repo, photo }) => {
         <ProjectTitle>{name}</ProjectTitle>
         <ProjectDescription>{description}</ProjectDescription>
         <ProjectButton as="a" href={address} target="_blank">
+          <Globe />
           Clic here and visit it
         </ProjectButton>
         <ProjectButton as="a" href={repo} target="_blank">
+          <Github />
           See the repository
         </ProjectButton>
       </ProjectInfo>

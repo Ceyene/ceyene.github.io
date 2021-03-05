@@ -5,7 +5,6 @@ import {
   StyledAbout,
   StyledKnowledge,
   KnowledgeContainer,
-  KnowledgeTech,
 } from "./About.elements";
 //global styles
 import {
@@ -21,84 +20,39 @@ const Knowledge = () => {
       <KnowledgeContainer>
         <StyledKnowledge>
           <StyledSmallText>Web Development</StyledSmallText>
-          <KnowledgeTech>
-            {/*<HtmlIcon />*/}
-            <StyledTertiaryTitle>HTML5</StyledTertiaryTitle>
-          </KnowledgeTech>
-          <KnowledgeTech>
-            {/*<CssIcon />*/}
-            <StyledTertiaryTitle>CSS3</StyledTertiaryTitle>
-          </KnowledgeTech>
-          <KnowledgeTech>
-            {/*<JsIcon />*/}
-            <StyledTertiaryTitle>Javascript</StyledTertiaryTitle>
-          </KnowledgeTech>
+          <StyledTertiaryTitle>HTML5</StyledTertiaryTitle>
+          <StyledTertiaryTitle>CSS3</StyledTertiaryTitle>
+          <StyledTertiaryTitle>Javascript</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
-          <KnowledgeTech>
-            {/*<ReactIcon />*/}
-            <StyledTertiaryTitle>React</StyledTertiaryTitle>
-          </KnowledgeTech>
-          <KnowledgeTech>
-            {/*<NodeIcon />*/}
-            <StyledTertiaryTitle>Node JS</StyledTertiaryTitle>
-          </KnowledgeTech>
+          <StyledTertiaryTitle>React</StyledTertiaryTitle>
+          <StyledTertiaryTitle>Node JS</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
           <StyledSmallText>Version control</StyledSmallText>
-          <KnowledgeTech>
-            {/*<GitIcon />*/}
-            <StyledTertiaryTitle>Git</StyledTertiaryTitle>
-          </KnowledgeTech>
-          <KnowledgeTech>
-            {/*<GithubIcon />*/}
-            <StyledTertiaryTitle>GitHub</StyledTertiaryTitle>
-          </KnowledgeTech>
+          <StyledTertiaryTitle>Git</StyledTertiaryTitle>
+          <StyledTertiaryTitle>GitHub</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
           <StyledSmallText>Other JS Libraries:</StyledSmallText>
-          <KnowledgeTech>
-            {/*<StyledCompIcon />*/}
-            <StyledTertiaryTitle>Styled Components</StyledTertiaryTitle>
-          </KnowledgeTech>
-          <KnowledgeTech>
-            {/*<StyledIcon />*/}
-            <StyledTertiaryTitle>Styled Icons</StyledTertiaryTitle>
-          </KnowledgeTech>
-          <KnowledgeTech>
-            {/*<MomentIcon />*/}
-            <StyledTertiaryTitle>Moment JS</StyledTertiaryTitle>
-          </KnowledgeTech>
+          <StyledTertiaryTitle>Styled Components</StyledTertiaryTitle>
+          <StyledTertiaryTitle>Styled Icons</StyledTertiaryTitle>
+          <StyledTertiaryTitle>Moment JS</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
           <StyledSmallText>CSS Preprocessor:</StyledSmallText>
-          <KnowledgeTech>
-            {/*<SassIcon />*/}
-            <StyledTertiaryTitle>SASS</StyledTertiaryTitle>
-          </KnowledgeTech>
+          <StyledTertiaryTitle>SASS</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
           <StyledSmallText>CSS Libraries</StyledSmallText>
-          <KnowledgeTech>
-            {/*<BulmaIcon />*/}
-            <StyledTertiaryTitle>Bulma</StyledTertiaryTitle>
-          </KnowledgeTech>
-          <KnowledgeTech>
-            {/*<BootstrapIcon />*/}
-            <StyledTertiaryTitle>Bootstrap</StyledTertiaryTitle>
-          </KnowledgeTech>
+          <StyledTertiaryTitle>Bulma</StyledTertiaryTitle>
+          <StyledTertiaryTitle>Bootstrap</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
-          <KnowledgeTech>
-            {/*<A11yIcon />*/}
-            <StyledTertiaryTitle>Accesibility</StyledTertiaryTitle>
-          </KnowledgeTech>
+          <StyledTertiaryTitle>Accesibility</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
-          <KnowledgeTech>
-            {/*<ScrumIcon />*/}
-            <StyledTertiaryTitle>Scrum</StyledTertiaryTitle>
-          </KnowledgeTech>
+          <StyledTertiaryTitle>Scrum</StyledTertiaryTitle>
         </StyledKnowledge>
       </KnowledgeContainer>
     </StyledAbout>

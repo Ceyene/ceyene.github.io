@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const StyledHome = styled.section`
-  width: 100%;
+  width: 95vw;
   background-color: transparent;
   display: flex;
   flex-direction: column;

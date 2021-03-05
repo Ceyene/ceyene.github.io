@@ -9,6 +9,11 @@ import {
   StyledNavA,
   DesktopMenu,
 } from "./Navbar.elements";
+//styled icons
+import { Home } from "@styled-icons/entypo/Home";
+import { Code } from "@styled-icons/entypo/Code";
+import { User } from "@styled-icons/boxicons-solid/User";
+import { EmailOutline } from "@styled-icons/evaicons-outline/EmailOutline";
 
 const Navbar = () => {
   return (
@@ -16,8 +21,16 @@ const Navbar = () => {
       <StyledNavUl>
         <StyledNavLi>
           <StyledNavA>
+            <Link to="/">
+              <Home />
+              <DesktopMenu>Home</DesktopMenu>
+            </Link>
+          </StyledNavA>
+        </StyledNavLi>
+        <StyledNavLi>
+          <StyledNavA>
             <Link to="/projects">
-              <i className="fas fa-laptop-code"></i>
+              <Code />
               <DesktopMenu>My projects</DesktopMenu>
             </Link>
           </StyledNavA>
@@ -25,7 +38,7 @@ const Navbar = () => {
         <StyledNavLi>
           <StyledNavA>
             <Link to="/about">
-              <i className="fas fa-user"></i>
+              <User />
               <DesktopMenu>About me</DesktopMenu>
             </Link>
           </StyledNavA>
@@ -33,7 +46,7 @@ const Navbar = () => {
         <StyledNavLi>
           <StyledNavA>
             <Link to="/contact">
-              <i className="fas fa-envelope"></i>
+              <EmailOutline />
               <DesktopMenu>Contact me</DesktopMenu>
             </Link>
           </StyledNavA>

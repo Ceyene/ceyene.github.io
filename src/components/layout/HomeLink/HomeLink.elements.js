@@ -2,17 +2,18 @@
 import styled from "styled-components";
 
 export const StyledHomeLink = styled.div`
-  border: 0.1rem solid #7d6386;
-  display: inline-block;
+  border: 0.15rem solid #7d6386;
+  border-radius: 1.5rem;
+  box-shadow: inset -0.2rem 0.15rem rgba(0, 0, 0, 0.13);
   position: absolute;
   bottom: 1.5rem;
   left: 1.5rem;
-  border-radius: 1rem;
 
   @media screen and (min-width: 900px) {
     &:hover {
       background: linear-gradient(to right, #e8cbc0, #7d6386);
       border-color: #ffffff;
+
       a {
         color: #ffffff;
       }

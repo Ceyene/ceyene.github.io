@@ -21,13 +21,13 @@ export const AboutText = styled(StyledText)`
 
 export const StyledKnowledge = styled.div`
   padding: 1rem;
-  height: 230px;
-  width: 230px;
+  height: 8.125rem;
+  width: 14.375rem;
   border-top: 0.01rem solid #7d6386;
   border-right: 0.13rem solid #7d6386;
   border-radius: 0.5rem;
   box-shadow: 0.625rem 0.625rem 0.313rem 0rem rgba(227, 220, 227, 0.68);
-  margin: 0.5rem 0.7rem;
+  margin: 1rem 0.7rem;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -48,7 +48,6 @@ export const Button = styled.button`
 
   @media screen and (min-width: 900px) {
     &:hover {
-      background-color: #c5c52e;
       color: #ffffff;
     }
 
@@ -97,6 +96,7 @@ export const StyledTertiaryTitle = styled.h3`
   font-size: 1rem;
 
   @media screen and (min-width: 900px) {
+    font-size: 1.1rem;
     line-height: 1.2rem;
   }
 `;
@@ -136,7 +136,7 @@ export const FlexDiv = styled.div`
 
 export const StyledSection = styled.section`
   padding: 2.25rem 1rem;
-  transition: opacity 0.5s ease-in-out;
+  background-color: transparent;
   position: relative;
 `;
 

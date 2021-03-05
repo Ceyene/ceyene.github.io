@@ -2,13 +2,16 @@
 import React from "react";
 //components
 import HomeLink from "../../components/layout/HomeLink/HomeLink";
-import ContactButton from "../../components/scenes/Contact/ContactButton";
-//component styles
+//styled components
 import {
   StyledMainTitle,
   StyledText,
 } from "../../components/styles/globalStyles";
-import { StyledContact, SocialDiv } from "./ContactMe.elements";
+import { StyledContact, SocialDiv, ContactButton } from "./ContactMe.elements";
+//styled icons
+import { Linkedin } from "@styled-icons/remix-fill/Linkedin";
+import { Github } from "@styled-icons/bootstrap/Github";
+import { Envelope } from "@styled-icons/bootstrap/Envelope";
 
 const ContactMe = () => {
   return (
@@ -24,21 +27,21 @@ const ContactMe = () => {
           href="https://www.linkedin.com/in/ce-y-ene/"
           target="_blank"
         >
-          {/* <LinkedIcon /> */}
+          <Linkedin />
         </ContactButton>
         <ContactButton
           as="a"
           href="https://www.github.com/Ceyene"
           target="_blank"
         >
-          {/*<GitHubIcon />*/}
+          <Github />
         </ContactButton>
         <ContactButton
           as="a"
           href="https://forms.gle/qEC3n2c97cBwHZez5"
           target="_blank"
         >
-          {/*<EmailIcon />*/}
+          <Envelope />
         </ContactButton>
       </SocialDiv>
       <HomeLink />
