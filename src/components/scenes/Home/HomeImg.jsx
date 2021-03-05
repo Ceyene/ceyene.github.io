@@ -8,7 +8,7 @@ import {
   StyledDiv,
 } from "./Home.elements";
 //images
-import ProfilePic from "../../images/perfil.jpg";
+import ProfilePic from "../../images/ceyene.jpeg";
 import Logo from "../../images/faviconCyn.png";
 
 const HomeImg = () => {

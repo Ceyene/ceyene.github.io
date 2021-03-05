@@ -63,23 +63,24 @@ export const StyledHeaderImg = styled(RoundImg)`
   width: 50vw;
   max-width: 250px;
   margin-bottom: 2rem;
+  border-radius: 0.5rem;
   ${RoundImg}
 
   @media screen and (min-width: 768px) {
-    width: 23vw;
+    width: 43vw;
     margin: 1.5rem 0;
   }
 `;
 
 export const StyledLogo = styled(RoundImg)`
-  width: 4.375rem;
+  width: 5.375rem;
   position: absolute;
   bottom: 2.563rem;
-  right: 0.563rem;
+  right: -1.563rem;
 
   @media screen and (min-width: 768px) {
     bottom: 1.563rem;
-    right: 1.563rem;
+    right: -1.5rem;
   }
   ${RoundImg}
 `;
