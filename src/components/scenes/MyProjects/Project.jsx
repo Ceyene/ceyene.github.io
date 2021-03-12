@@ -22,11 +22,11 @@ const Project = ({ key, name, description, address, repo, photo }) => {
         <ProjectDescription>{description}</ProjectDescription>
         <ProjectButton as="a" href={address} target="_blank">
           <Globe />
-          Clic here and visit it
+          Go to website
         </ProjectButton>
         <ProjectButton as="a" href={repo} target="_blank">
           <Github />
-          See the repository
+          View repository
         </ProjectButton>
       </ProjectInfo>
     </StyledProject>

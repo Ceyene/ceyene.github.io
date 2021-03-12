@@ -12,10 +12,10 @@ const HomeText = () => {
   return (
     <StyledHero>
       <StyledHeader>
-        <StyledTertiaryTitle>¡Hello! My name is</StyledTertiaryTitle>
+        <StyledTertiaryTitle>Hello! My name is</StyledTertiaryTitle>
         <StyledMainTitle>Cynthia Romero</StyledMainTitle>
         <StyledText>I am a Front End Web Developer</StyledText>
-        <StyledText>from Córdoba, Argentina</StyledText>
+        <StyledText>from Cordoba, Argentina</StyledText>
       </StyledHeader>
     </StyledHero>
   );

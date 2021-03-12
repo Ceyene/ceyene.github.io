@@ -20,7 +20,7 @@ export const AboutText = styled(StyledText)`
 `;
 
 export const StyledKnowledge = styled.div`
-  padding: 1rem;
+  padding: 1rem 0.5rem;
   height: 8.125rem;
   width: 14.375rem;
   border-top: 0.01rem solid #7d6386;

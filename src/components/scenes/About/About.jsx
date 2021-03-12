@@ -9,11 +9,11 @@ const About = () => {
     <StyledAbout>
       <StyledSecondaryTitle>Welcome!</StyledSecondaryTitle>
       <AboutText>
-        I´m a Front End Web Developer from Córdoba, Argentina. I´m always
-        interested in learning how to create sites with a great user experience,
-        I keep studying about it. Front End is my focus, so Javascript is my
-        main language. React library is my tool right now, but I'm open to learn
-        any other JS libraries in the future.
+        I'm a Front End Web Developer from Cordoba, Argentina. I'm passionate
+        about creating websites with a great user experience. Front End is my
+        field; Javascript is my main programming language. React is what I'm
+        using most right now, but I'm open to learn any other JS libraries in
+        the future.
       </AboutText>
     </StyledAbout>
   );

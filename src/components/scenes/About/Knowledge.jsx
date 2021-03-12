@@ -16,10 +16,10 @@ import {
 const Knowledge = () => {
   return (
     <StyledAbout>
-      <StyledSecondaryTitle>Tecnologies learned:</StyledSecondaryTitle>
+      <StyledSecondaryTitle>Tecnologies learnt so far:</StyledSecondaryTitle>
       <KnowledgeContainer>
         <StyledKnowledge>
-          <StyledSmallText>Web Development</StyledSmallText>
+          <StyledSmallText>Web Development:</StyledSmallText>
           <StyledTertiaryTitle>HTML5</StyledTertiaryTitle>
           <StyledTertiaryTitle>CSS3</StyledTertiaryTitle>
           <StyledTertiaryTitle>Javascript</StyledTertiaryTitle>
@@ -29,12 +29,12 @@ const Knowledge = () => {
           <StyledTertiaryTitle>Node JS</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
-          <StyledSmallText>Version control</StyledSmallText>
+          <StyledSmallText>Version control:</StyledSmallText>
           <StyledTertiaryTitle>Git</StyledTertiaryTitle>
           <StyledTertiaryTitle>GitHub</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
-          <StyledSmallText>Other JS Libraries:</StyledSmallText>
+          <StyledSmallText>Other Libraries:</StyledSmallText>
           <StyledTertiaryTitle>Styled Components</StyledTertiaryTitle>
           <StyledTertiaryTitle>Styled Icons</StyledTertiaryTitle>
           <StyledTertiaryTitle>Moment JS</StyledTertiaryTitle>
@@ -44,7 +44,7 @@ const Knowledge = () => {
           <StyledTertiaryTitle>SASS</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
-          <StyledSmallText>CSS Libraries</StyledSmallText>
+          <StyledSmallText>CSS Frameworks:</StyledSmallText>
           <StyledTertiaryTitle>Bulma</StyledTertiaryTitle>
           <StyledTertiaryTitle>Bootstrap</StyledTertiaryTitle>
         </StyledKnowledge>

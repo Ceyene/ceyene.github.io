@@ -18,8 +18,8 @@ const ContactMe = () => {
     <StyledContact>
       <StyledMainTitle>Contact me</StyledMainTitle>
       <StyledText>
-        You can find me in these social networks, or write me an email. Let´s
-        work together!
+        You can contact me by clicking any of the buttons below. Let´s work
+        together!
       </StyledText>
       <SocialDiv>
         <ContactButton
@@ -36,11 +36,7 @@ const ContactMe = () => {
         >
           <Github />
         </ContactButton>
-        <ContactButton
-          as="a"
-          href="https://forms.gle/qEC3n2c97cBwHZez5"
-          target="_blank"
-        >
+        <ContactButton as="a" href="mailto:cyn.jaz.romero@gmail.com">
           <Envelope />
         </ContactButton>
       </SocialDiv>
