@@ -56,6 +56,8 @@ export const StyledNavA = styled.span`
     text-transform: uppercase;
     letter-spacing: 0.135rem;
     color: #7d6386;
+    display: block;
+    width: 100%;
 
     svg {
       width: 2.7rem;

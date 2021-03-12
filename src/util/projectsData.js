@@ -2,7 +2,7 @@ const projectsData = [
   {
     id: "Proyect1",
     name: "Rewards Store",
-    photo: "./images/RewardsStore.jpg",
+    photo: "./images/rewardsstore.jpg",
     description:
       "Final project for Acamica's Front End Web Developer Course. Made with React, using functional components and Hooks. Layout: Mobile First.",
     link: "https://ceyene.github.io/StoreRomeroCynthia",
