@@ -22,6 +22,7 @@ const MyProjects = () => {
             key={project.id}
             name={project.name}
             description={project.description}
+            technologies={project.technologies}
             address={project.link}
             repo={project.repo}
             photo={project.photo}

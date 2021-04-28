@@ -14,7 +14,7 @@ body{
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
   color: #555555;
-  background: linear-gradient(to right, #efefbb, #d4d3dd);
+  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   line-height: 1.75;
   letter-spacing: 0.07rem;
   display: flex;
@@ -32,7 +32,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #7d6386;
+  color: #83031B;
 }
 `;
 
@@ -59,7 +59,7 @@ export const Button = styled.button`
 
 export const StyledMainTitle = styled.h1`
   text-transform: uppercase;
-  color: #7d6386;
+  color: #83031b;
   font-size: 1.5rem;
   letter-spacing: 0.15rem;
   margin: 0 auto;
@@ -68,7 +68,7 @@ export const StyledMainTitle = styled.h1`
   &::after {
     content: "";
     display: block;
-    background-color: #7d6386;
+    background-color: #83031b;
     height: 0.063rem;
     margin: 0.75rem auto;
     width: 7.5rem;
@@ -101,16 +101,28 @@ export const StyledTertiaryTitle = styled.h3`
   }
 `;
 
-export const StyledText = styled.p`
+export const StyledUpperText = styled.p`
   font-size: 0.813rem;
   line-height: 0.85rem;
   text-align: right;
   text-transform: uppercase;
+  letter-spacing: 0.15rem;
+
+  @media screen and (min-width: 900px) {
+    font-size: 0.9rem;
+    line-height: 1.09rem;
+  }
+`;
+
+export const StyledText = styled.p`
+  font-size: 1rem;
+  line-height: 1.05rem;
+  text-align: center;
   letter-spacing: 0.1rem;
 
   @media screen and (min-width: 900px) {
-    font-size: 0.833rem;
-    line-height: 0.9rem;
+    font-size: 1.1rem;
+    line-height: 1.1rem;
   }
 `;
 

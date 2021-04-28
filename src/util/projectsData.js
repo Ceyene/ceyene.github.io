@@ -1,39 +1,61 @@
 const projectsData = [
   {
     id: "Proyect1",
+    name: "My blog",
+    photo: "./images/frontendblog.jpg",
+    description: "A blog about my Front End Adventures.",
+    technologies: "Gatsby, GraphQL, React, Webpack, Sass.",
+    link: "https://frontenddevblog.netlify.app/",
+    repo: "https://github.com/Ceyene/MyBlog",
+  },
+  {
+    id: "Proyect2",
+    name: "Cyn Stories",
+    photo: "./images/cyncuentos.jpg",
+    description: "A short stories catalog.",
+    technologies:
+      "React (Functional Components. Hooks. React Router). Redux, Webpack, Sass.",
+    link: "https://loscuentosdecyn.netlify.app/",
+    repo: "https://github.com/Ceyene/CynCuentos",
+  },
+  {
+    id: "Proyect3",
+    name: "Shopping Cart",
+    photo: "./images/mystore.jpg",
+    description: "A small shopping cart.",
+    technologies:
+      "React (Functional Components). TypeScript, Material UI, Styled Components.",
+    link: "https://ceyene.github.io/ShoppingCart/",
+    repo: "https://github.com/Ceyene/ShoppingCart",
+  },
+  {
+    id: "Proyect4",
     name: "Rewards Store",
     photo: "./images/rewardsstore.jpg",
-    description:
-      "Final project for Acamica's Front End Web Development Course. Made with React, using functional components and Hooks. The layout is Mobile First.",
+    description: "A web to get some gifts in exchange by points",
+    technologies:
+      "React (Functional components. Hooks. React Router). Styled Components.",
     link: "https://ceyene.github.io/StoreRomeroCynthia",
     repo: "https://github.com/Ceyene/StoreRomeroCynthia",
   },
   {
-    id: "Proyect2",
+    id: "Proyect5",
     name: "Booking System",
     photo: "./images/descansar.jpg",
     description:
-      "Third project for Acamica's Front End Web Development Course. Made with React, using functional components and Hooks. The layout is Mobile First.",
+      "A small booking system, with filters by date, rooms and price.",
+    technologies: "React (Functional components. Hooks)",
     link: "https://npxdz.csb.app/",
     repo: "https://github.com/Ceyene/DescansarPuntoCom",
   },
   {
-    id: "Project3",
-    name: "GIFOS Search",
-    photo: "./images/gifos.jpg",
-    description:
-      "Second project for Acamica's Front End Web Development Course. Made with: HTML5, CSS3 and Vainilla JavaScript. The layout is Mobile First.",
-    link: "https://searchgifos.netlify.app/",
-    repo: "https://github.com/Ceyene/GIFOS",
-  },
-  {
-    id: "Proyect4",
-    name: "Static blog",
-    photo: "./images/miblog.jpg",
-    description:
-      "Personal project. Made to put into practice what I've learnt from various Web Development courses. Made with: HTML5 and CSS3. The layout is Responsive Design.",
-    link: "https://ceyene.github.io/mi-blog/",
-    repo: "https://github.com/Ceyene/mi-blog",
+    id: "Project6",
+    name: "Multi-Messenger",
+    photo: "./images/messengermultiple.jpg",
+    description: "A mock messenger service",
+    technologies: "React (Class components)",
+    link: "https://messenger-multiple.netlify.app/",
+    repo: "https://github.com/Ceyene/MessengerMultiple",
   },
 ];
 

@@ -3,7 +3,7 @@ import React from "react";
 //styles
 import { StyledHero, StyledHeader } from "./Home.elements.js";
 import {
-  StyledText,
+  StyledUpperText,
   StyledMainTitle,
   StyledTertiaryTitle,
 } from "../../styles/globalStyles";
@@ -14,8 +14,8 @@ const HomeText = () => {
       <StyledHeader>
         <StyledTertiaryTitle>Hello! My name is</StyledTertiaryTitle>
         <StyledMainTitle>Cynthia Romero</StyledMainTitle>
-        <StyledText>I am a Front End Web Developer</StyledText>
-        <StyledText>from Cordoba, Argentina</StyledText>
+        <StyledUpperText>I'm a Front End Web Developer</StyledUpperText>
+        <StyledUpperText>from Cordoba, Argentina</StyledUpperText>
       </StyledHeader>
     </StyledHero>
   );

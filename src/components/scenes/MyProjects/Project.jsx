@@ -6,6 +6,7 @@ import {
   ProjectInfo,
   ProjectTitle,
   ProjectDescription,
+  ProjectTechUsed,
   ProjectButton,
   ProjectImg,
 } from "./Project.elements";
@@ -13,13 +14,22 @@ import {
 import { Github } from "@styled-icons/bootstrap/Github";
 import { Globe } from "@styled-icons/bootstrap/Globe";
 
-const Project = ({ key, name, description, address, repo, photo }) => {
+const Project = ({
+  key,
+  name,
+  description,
+  technologies,
+  address,
+  repo,
+  photo,
+}) => {
   return (
     <StyledProject key={key}>
       <ProjectImg src={photo} alt={name} />
       <ProjectInfo>
         <ProjectTitle>{name}</ProjectTitle>
         <ProjectDescription>{description}</ProjectDescription>
+        <ProjectTechUsed>{technologies}</ProjectTechUsed>
         <ProjectButton as="a" href={address} target="_blank">
           <Globe />
           Go to website

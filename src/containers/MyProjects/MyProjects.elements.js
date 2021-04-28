@@ -7,7 +7,7 @@ export const StyledProjectsContainer = styled(StyledSection)`
   padding: 2.5rem 5% 4.5rem 5%;
 
   @media screen and (min-width: 900px) {
-    padding: 2.5rem 15% 5.5rem 15%;
+    padding: 2.5rem 5% 5.5rem 5%;
   }
   ${StyledSection}
 `;

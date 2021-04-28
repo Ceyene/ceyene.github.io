@@ -2,7 +2,7 @@
 import styled from "styled-components";
 
 export const StyledHomeLink = styled.div`
-  border: 0.15rem solid #7d6386;
+  border: 0.15rem solid #83031b;
   border-radius: 1.5rem;
   box-shadow: inset -0.2rem 0.15rem rgba(0, 0, 0, 0.13);
   position: absolute;
@@ -11,7 +11,7 @@ export const StyledHomeLink = styled.div`
 
   @media screen and (min-width: 900px) {
     &:hover {
-      background: linear-gradient(to right, #e8cbc0, #7d6386);
+      background-color: #83031b;
       border-color: #ffffff;
 
       a {
@@ -23,7 +23,7 @@ export const StyledHomeLink = styled.div`
   a {
     padding: 1rem 2.5rem;
     margin-top: 1.5rem;
-    color: #7d6386;
+    color: #83031b;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-size: 1rem;

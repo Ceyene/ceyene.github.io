@@ -4,6 +4,7 @@ import styled from "styled-components";
 import {
   StyledTertiaryTitle,
   StyledText,
+  StyledUpperText,
   Button,
 } from "../../styles/globalStyles";
 
@@ -13,12 +14,12 @@ export const StyledProject = styled.article`
   border-right: 0.15rem solid #c5c52e;
   border-radius: 0.5rem;
   background-color: transparent;
-  width: 80%;
+  width: 90%;
   min-width: 18.75rem;
   box-shadow: 0.625rem 0.625rem 0.313rem 0rem rgba(227, 220, 227, 0.68);
 
   @media screen and (min-width: 900px) {
-    width: 45%;
+    width: 25%;
   }
 `;
 
@@ -41,6 +42,15 @@ export const ProjectDescription = styled(StyledText)`
   line-height: 0.95rem;
   margin-bottom: 1.5rem;
   ${StyledText}
+`;
+
+export const ProjectTechUsed = styled(StyledUpperText)`
+  font-size: 0.913rem;
+  line-height: 0.95rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #c5c52e;
+  ${StyledText};
 `;
 
 export const ProjectButton = styled(Button)`
@@ -68,5 +78,6 @@ export const ProjectButton = styled(Button)`
 
 export const ProjectImg = styled.img`
   border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
   width: 100%;
 `;

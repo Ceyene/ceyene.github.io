@@ -26,8 +26,8 @@ export const StyledNavLi = styled.li`
 
   @media screen and (min-width: 768px) {
     width: 11rem;
-    border-top: 0.01rem solid #7d6386;
-    border-right: 0.17rem solid #7d6386;
+    border-top: 0.01rem solid #83031b;
+    border-right: 0.17rem solid #83031b;
     border-top-right-radius: 0.5rem;
     background-color: #ffffff;
     box-shadow: inset -0.13rem 0.12rem rgba(0, 0, 0, 0.1);
@@ -37,7 +37,7 @@ export const StyledNavLi = styled.li`
 
     &:hover {
       border: none;
-      background-color: #ccb0c2;
+      background-color: #83031b;
       color: #ffffff;
 
       a {
@@ -55,7 +55,7 @@ export const StyledNavA = styled.span`
   a {
     text-transform: uppercase;
     letter-spacing: 0.135rem;
-    color: #7d6386;
+    color: #83031b;
     display: block;
     width: 100%;
 
@@ -66,7 +66,7 @@ export const StyledNavA = styled.span`
 
     @media screen and (min-width: 768px) {
       font-size: 0.836rem;
-      color: #7d6386;
+      color: #83031b;
 
       svg {
         width: 1.1rem;

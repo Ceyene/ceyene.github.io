@@ -5,6 +5,8 @@ import { FlexDiv, StyledSection } from "../../components/styles/globalStyles";
 
 export const StyledContact = styled(StyledSection)`
   min-height: calc(100vh - 15vh);
+  padding-right: 5%;
+  padding-left: 5%;
   ${StyledSection}
 `;
 

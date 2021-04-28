@@ -16,7 +16,7 @@ import {
 const Knowledge = () => {
   return (
     <StyledAbout>
-      <StyledSecondaryTitle>Tecnologies learnt so far:</StyledSecondaryTitle>
+      <StyledSecondaryTitle>Technologies:</StyledSecondaryTitle>
       <KnowledgeContainer>
         <StyledKnowledge>
           <StyledSmallText>Web Development:</StyledSmallText>
@@ -25,8 +25,12 @@ const Knowledge = () => {
           <StyledTertiaryTitle>Javascript</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
-          <StyledTertiaryTitle>React</StyledTertiaryTitle>
+          <StyledTertiaryTitle>React JS</StyledTertiaryTitle>
+          <StyledTertiaryTitle>Redux JS</StyledTertiaryTitle>
           <StyledTertiaryTitle>Node JS</StyledTertiaryTitle>
+        </StyledKnowledge>
+        <StyledKnowledge>
+          <StyledTertiaryTitle>Webpack</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
           <StyledSmallText>Version control:</StyledSmallText>
@@ -42,11 +46,16 @@ const Knowledge = () => {
         <StyledKnowledge>
           <StyledSmallText>CSS Preprocessor:</StyledSmallText>
           <StyledTertiaryTitle>SASS</StyledTertiaryTitle>
-        </StyledKnowledge>
-        <StyledKnowledge>
           <StyledSmallText>CSS Frameworks:</StyledSmallText>
           <StyledTertiaryTitle>Bulma</StyledTertiaryTitle>
           <StyledTertiaryTitle>Bootstrap</StyledTertiaryTitle>
+        </StyledKnowledge>
+        <StyledKnowledge>
+          <StyledTertiaryTitle>Gatsby JS</StyledTertiaryTitle>
+          <StyledTertiaryTitle>Next JS</StyledTertiaryTitle>
+        </StyledKnowledge>
+        <StyledKnowledge>
+          <StyledTertiaryTitle>GraphQL</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
           <StyledTertiaryTitle>Accesibility</StyledTertiaryTitle>
