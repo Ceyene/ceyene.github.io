@@ -22,7 +22,7 @@ const projectsData = [
     id: "Proyect3",
     name: "Shopping Cart",
     photo: "./images/mystore.jpg",
-    description: "A small shopping cart.",
+    description: "A mock shopping cart.",
     technologies:
       "React (Functional Components). TypeScript, Material UI, Styled Components.",
     link: "https://ceyene.github.io/ShoppingCart/",
@@ -32,7 +32,7 @@ const projectsData = [
     id: "Proyect4",
     name: "Rewards Store",
     photo: "./images/rewardsstore.jpg",
-    description: "A web to get some gifts in exchange by points",
+    description: "A web to get some gifts in exchange for points.",
     technologies:
       "React (Functional components. Hooks. React Router). Styled Components.",
     link: "https://ceyene.github.io/StoreRomeroCynthia",
@@ -52,7 +52,7 @@ const projectsData = [
     id: "Project6",
     name: "Multi-Messenger",
     photo: "./images/messengermultiple.jpg",
-    description: "A mock messenger service",
+    description: "A mock messenger service.",
     technologies: "React (Class components)",
     link: "https://messenger-multiple.netlify.app/",
     repo: "https://github.com/Ceyene/MessengerMultiple",

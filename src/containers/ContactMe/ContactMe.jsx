@@ -18,8 +18,8 @@ const ContactMe = () => {
     <StyledContact>
       <StyledMainTitle>Contact me</StyledMainTitle>
       <StyledText>
-        Click any of the buttons bellow to see my latest projects or send me
-        your message. Let's work together!
+        Click any of the buttons below to see my latest projects or send me your
+        message. Let's work together!
       </StyledText>
       <SocialDiv>
         <ContactButton
