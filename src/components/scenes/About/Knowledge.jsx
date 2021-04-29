@@ -38,6 +38,10 @@ const Knowledge = () => {
           <StyledTertiaryTitle>GitHub</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
+          <StyledSmallText>Unit Testing:</StyledSmallText>
+          <StyledTertiaryTitle>Mocha - Chai</StyledTertiaryTitle>
+        </StyledKnowledge>
+        <StyledKnowledge>
           <StyledSmallText>Other Libraries:</StyledSmallText>
           <StyledTertiaryTitle>Styled Components</StyledTertiaryTitle>
           <StyledTertiaryTitle>Styled Icons</StyledTertiaryTitle>
