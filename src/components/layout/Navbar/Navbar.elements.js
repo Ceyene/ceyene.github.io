@@ -26,18 +26,27 @@ export const StyledNavLi = styled.li`
 
   @media screen and (min-width: 768px) {
     width: 11rem;
-    border-top: 0.01rem solid #83031b;
-    border-right: 0.17rem solid #83031b;
+    border-top: 0.015rem solid transparent;
+    border-right: 0.02rem solid transparent;
+    border-bottom: none;
+    border-left: 0.01rem solid transparent;
     border-top-right-radius: 0.5rem;
-    background-color: #ffffff;
-    box-shadow: inset -0.13rem 0.12rem rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(
+      171.9deg,
+      rgba(109, 25, 252, 1) 4%,
+      rgba(125, 31, 165, 1) 56.1%
+    );
+    box-shadow: inset -0.03rem 0.01rem rgba(0, 0, 0, 0.5);
     padding: 0.35rem;
     text-align: center;
     margin: 0;
 
     &:hover {
-      border: none;
-      background-color: #83031b;
+      background-image: linear-gradient(
+        135.9deg,
+        rgba(109, 25, 252, 1) 4%,
+        rgba(125, 31, 165, 1) 56.1%
+      );
       color: #ffffff;
 
       a {
@@ -55,7 +64,7 @@ export const StyledNavA = styled.span`
   a {
     text-transform: uppercase;
     letter-spacing: 0.135rem;
-    color: #83031b;
+    color: #e3e3e3;
     display: block;
     width: 100%;
 
@@ -66,7 +75,7 @@ export const StyledNavA = styled.span`
 
     @media screen and (min-width: 768px) {
       font-size: 0.836rem;
-      color: #83031b;
+      color: #e3e3e3;
 
       svg {
         width: 1.1rem;

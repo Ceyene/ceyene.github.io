@@ -17,28 +17,25 @@ export const SocialDiv = styled(FlexDiv)`
 `;
 
 export const ContactButton = styled.a`
-  border: 0.15rem solid #c5c52e;
+  color: #000000;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
+  border: 0.15rem solid transparent;
   border-radius: 1.5rem;
   padding: 1.1rem 1.5rem;
-  color: #c5c52e;
 
   svg {
-    fill: #c5c52e;
+    fill: rgba(0, 0, 0, 0.75);
     width: 2.5rem;
   }
 
   @media screen and (min-width: 900px) {
     &:hover {
-      color: #ffffff;
-      background-image: linear-gradient(
-        109.5deg,
-        rgba(197, 197, 46, 0.6) 11.2%,
-        rgba(197, 197, 46, 0.849) 100.2%
-      );
-      border-color: #ffffff;
+      border-color: #e0c3fc;
+      background-image: none;
+      color: #e0c3fc;
 
       svg {
-        fill: #ffffff;
+        fill: #e0c3fc;
       }
     }
   }

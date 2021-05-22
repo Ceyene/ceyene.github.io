@@ -2,20 +2,21 @@
 import styled from "styled-components";
 
 export const StyledHomeLink = styled.div`
-  border: 0.15rem solid #83031b;
+  border: 0.15rem solid transparent;
   border-radius: 1.5rem;
-  box-shadow: inset -0.2rem 0.15rem rgba(0, 0, 0, 0.13);
+  background-image: linear-gradient(19deg, #00f59b 0%, #30bfa5 100%);
   position: absolute;
   bottom: 1.5rem;
   left: 1.5rem;
 
   @media screen and (min-width: 900px) {
     &:hover {
-      background-color: #83031b;
-      border-color: #ffffff;
+      background-image: none;
+      box-shadow: inset -0.1rem 0.15rem rgba(0, 0, 0, 0.63);
+      border-color: #00f59b;
 
       a {
-        color: #ffffff;
+        color: #00f59b;
       }
     }
   }
@@ -23,7 +24,7 @@ export const StyledHomeLink = styled.div`
   a {
     padding: 1rem 2.5rem;
     margin-top: 1.5rem;
-    color: #83031b;
+    color: rgba(0, 0, 0, 0.95);
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     font-size: 1rem;

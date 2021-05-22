@@ -23,10 +23,11 @@ export const StyledKnowledge = styled.div`
   padding: 1rem 0.5rem;
   height: 8.125rem;
   width: 14.375rem;
-  border-top: 0.01rem solid #5e5d5c;
-  border-right: 0.13rem solid #5e5d5c;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-top: 0.01rem solid #e0c3fc;
+  border-right: 0.13rem solid #e0c3fc;
   border-radius: 0.5rem;
-  box-shadow: 0.625rem 0.625rem 0.313rem 0rem rgba(227, 220, 227, 0.68);
+  box-shadow: 0.625rem 0.625rem 0.313rem 0rem rgba(0, 0, 0, 0.35);
   margin: 1rem 1.5rem;
   display: flex;
   flex-direction: column;

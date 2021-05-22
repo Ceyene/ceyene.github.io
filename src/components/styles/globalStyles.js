@@ -13,8 +13,9 @@ const GlobalStyle = createGlobalStyle`
 body{
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
-  color: #555555;
-  background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  color: #e3e3e3;
+  background-color: #050767;
+  background-image: linear-gradient(225deg, #050767 0%, #54267b 50%, #1b6ba3 100%);
   line-height: 1.75;
   letter-spacing: 0.07rem;
   display: flex;
@@ -32,7 +33,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #83031B;
 }
 `;
 
@@ -59,7 +59,7 @@ export const Button = styled.button`
 
 export const StyledMainTitle = styled.h1`
   text-transform: uppercase;
-  color: #83031b;
+  color: #00edb6;
   font-size: 1.5rem;
   letter-spacing: 0.15rem;
   margin: 0 auto;
@@ -68,7 +68,7 @@ export const StyledMainTitle = styled.h1`
   &::after {
     content: "";
     display: block;
-    background-color: #83031b;
+    background-color: #00edb6;
     height: 0.063rem;
     margin: 0.75rem auto;
     width: 7.5rem;
@@ -83,7 +83,7 @@ export const StyledMainTitle = styled.h1`
 export const StyledSecondaryTitle = styled.h2`
   font-family: "Montserrat", sans-serif;
   text-align: left;
-  color: #c5c52e;
+  color: #e0c3fc;
   font-size: 1rem;
 
   @media screen and (min-width: 900px) {
@@ -154,7 +154,7 @@ export const StyledSection = styled.section`
 
 export const RoundImg = styled.img`
   border-radius: 50%;
-  box-shadow: 0.625rem 0.625rem 0.313rem 0rem rgba(227, 220, 227, 0.68);
+  box-shadow: 0.625rem 0.625rem 0.313rem 0rem rgba(0, 0, 0, 0.35);
 `;
 
 export default GlobalStyle;
