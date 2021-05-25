@@ -13,7 +13,9 @@ export const StyledProject = styled.article`
   border-radius: 0.5rem;
   background-color: transparent;
   width: 90%;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.35);
+  border-bottom: 0.1rem solid rgba(0, 0, 0, 0.25);
+  border-left: 0.1rem solid rgba(0, 0, 0, 0.25);
   min-width: 18.75rem;
   box-shadow: 0.625rem 0.625rem 0.313rem 0rem rgba(0, 0, 0, 0.25);
 
@@ -68,7 +70,7 @@ export const ProjectButton = styled(Button)`
       color: #e0c3fc;
       border-color: #e0c3fc;
       background-image: none;
-      box-shadow: inset -0.1rem 0.15rem rgba(0, 0, 0, 0.63);
+      box-shadow: inset -0.1rem 0.15rem rgba(0, 0, 0, 0.35);
     }
   }
   ${Button}

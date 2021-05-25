@@ -10,12 +10,11 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 
-body{
+body {
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
   color: #e3e3e3;
-  background-color: #050767;
-  background-image: linear-gradient(225deg, #050767 0%, #54267b 50%, #1b6ba3 100%);
+  background-image: linear-gradient(45deg, #764ba2 0%, #6e45e2 100%);
   line-height: 1.75;
   letter-spacing: 0.07rem;
   display: flex;

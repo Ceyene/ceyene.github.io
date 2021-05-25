@@ -12,7 +12,7 @@ export const StyledHomeLink = styled.div`
   @media screen and (min-width: 900px) {
     &:hover {
       background-image: none;
-      box-shadow: inset -0.1rem 0.15rem rgba(0, 0, 0, 0.63);
+      box-shadow: inset -0.1rem 0.13rem rgba(0, 0, 0, 0.63);
       border-color: #00f59b;
 
       a {
