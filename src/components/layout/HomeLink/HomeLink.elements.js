@@ -11,13 +11,7 @@ export const StyledHomeLink = styled.div`
 
   @media screen and (min-width: 900px) {
     &:hover {
-      background-image: none;
-      box-shadow: inset -0.1rem 0.13rem rgba(0, 0, 0, 0.63);
-      border-color: #00f59b;
-
-      a {
-        color: #00f59b;
-      }
+      background-image: linear-gradient(190deg, #00f59b 0%, #30bfa5 100%);
     }
   }
 

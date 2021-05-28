@@ -30,7 +30,7 @@ export const ProjectInfo = styled.div`
 `;
 
 export const ProjectTitle = styled(StyledTertiaryTitle)`
-  color: #a7c9e3;
+  color: #14df9f;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
   font-size: 1.2rem;
@@ -42,6 +42,7 @@ export const ProjectDescription = styled(StyledText)`
   font-size: 0.913rem;
   line-height: 0.95rem;
   margin-bottom: 1.5rem;
+  color: #ffffff;
   ${StyledText}
 `;
 
@@ -50,7 +51,7 @@ export const ProjectTechUsed = styled(StyledUpperText)`
   line-height: 0.95rem;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #9599e2;
+  color: #e0c3fc;
   ${StyledText};
 `;
 
@@ -67,8 +68,8 @@ export const ProjectButton = styled(Button)`
 
   @media screen and (min-width: 900px) {
     &:hover {
-      color: #e0c3fc;
-      border-color: #e0c3fc;
+      color: #8ec5fc;
+      border-color: #8ec5fc;
       background-image: none;
       box-shadow: inset -0.1rem 0.15rem rgba(0, 0, 0, 0.35);
     }

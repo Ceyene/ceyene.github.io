@@ -31,13 +31,7 @@ export const ContactButton = styled.a`
 
   @media screen and (min-width: 900px) {
     &:hover {
-      border-color: #e0c3fc;
-      background-image: none;
-      color: #e0c3fc;
-
-      svg {
-        fill: #e0c3fc;
-      }
+      background-image: linear-gradient(162deg, #8ec5fc 0%, #e0c3fc 100%);
     }
   }
 `;

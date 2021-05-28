@@ -13,8 +13,8 @@ const GlobalStyle = createGlobalStyle`
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
-  color: #ffffff;
-  background-image: linear-gradient( 169.1deg,  rgba(247,238,238,1) 1.9%, rgba(247,202,201,1) 44.9%, rgba(145,168,208,1) 96.1% );
+  color: #000000;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
   line-height: 1.75;
   letter-spacing: 0.07rem;
   display: flex;
@@ -84,6 +84,7 @@ export const StyledSecondaryTitle = styled.h2`
   text-align: left;
   color: #30afa5;
   font-size: 1rem;
+  text-shadow: 0.063rem 0.063rem 0.063rem rgba(0, 0, 0, 0.1);
 
   @media screen and (min-width: 900px) {
     font-size: 1.5rem;
@@ -93,6 +94,8 @@ export const StyledSecondaryTitle = styled.h2`
 export const StyledTertiaryTitle = styled.h3`
   text-align: left;
   font-size: 1rem;
+  color: #ffffff;
+  text-shadow: 0.063rem 0.063rem 0.125rem rgba(0, 0, 0, 0.9);
 
   @media screen and (min-width: 900px) {
     font-size: 1.1rem;
@@ -130,6 +133,7 @@ export const StyledSmallText = styled.p`
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1rem;
+  color: #ffffff;
 
   @media screen and (min-width: 900px) {
     font-size: 0.95rem;
