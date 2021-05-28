@@ -64,7 +64,7 @@ export const StyledNavA = styled.span`
   a {
     text-transform: uppercase;
     letter-spacing: 0.135rem;
-    color: #e3e3e3;
+    color: rgba(109, 25, 252, 1);
     display: block;
     width: 100%;
 

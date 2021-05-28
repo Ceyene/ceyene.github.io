@@ -13,8 +13,8 @@ const GlobalStyle = createGlobalStyle`
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 19px;
-  color: #e3e3e3;
-  background-image: linear-gradient(45deg, #764ba2 0%, #6e45e2 100%);
+  color: #ffffff;
+  background-image: linear-gradient( 169.1deg,  rgba(247,238,238,1) 1.9%, rgba(247,202,201,1) 44.9%, rgba(145,168,208,1) 96.1% );
   line-height: 1.75;
   letter-spacing: 0.07rem;
   display: flex;
@@ -58,7 +58,7 @@ export const Button = styled.button`
 
 export const StyledMainTitle = styled.h1`
   text-transform: uppercase;
-  color: #00edb6;
+  color: rgba(109, 25, 252, 1);
   font-size: 1.5rem;
   letter-spacing: 0.15rem;
   margin: 0 auto;
@@ -67,8 +67,8 @@ export const StyledMainTitle = styled.h1`
   &::after {
     content: "";
     display: block;
-    background-color: #00edb6;
-    height: 0.063rem;
+    background-color: #30afa5;
+    height: 0.133rem;
     margin: 0.75rem auto;
     width: 7.5rem;
   }
@@ -82,7 +82,7 @@ export const StyledMainTitle = styled.h1`
 export const StyledSecondaryTitle = styled.h2`
   font-family: "Montserrat", sans-serif;
   text-align: left;
-  color: #e0c3fc;
+  color: #30afa5;
   font-size: 1rem;
 
   @media screen and (min-width: 900px) {
