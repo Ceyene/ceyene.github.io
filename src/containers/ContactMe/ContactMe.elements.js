@@ -23,6 +23,7 @@ export const ContactButton = styled.a`
   border-radius: 1.5rem;
   padding: 1.1rem 1.5rem;
   margin: 0.5rem;
+  box-shadow: 0.325rem 0.325rem 0.313rem 0rem rgba(0, 0, 0, 0.15);
 
   svg {
     fill: rgba(0, 0, 0, 0.75);

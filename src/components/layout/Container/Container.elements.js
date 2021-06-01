@@ -8,9 +8,9 @@ export const StyledContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.15);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.15);
-  border-left: 2px solid rgba(0, 0, 0, 0.15);
+  background-color: rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border-left: 2px solid rgba(0, 0, 0, 0.1);
 
   @media screen and (min-width: 768px) {
     width: 85vw;
