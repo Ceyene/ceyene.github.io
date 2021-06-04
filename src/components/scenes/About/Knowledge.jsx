@@ -55,10 +55,6 @@ const Knowledge = () => {
           <StyledTertiaryTitle>Bootstrap</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
-          <StyledTertiaryTitle>Gatsby JS</StyledTertiaryTitle>
-          <StyledTertiaryTitle>Next JS</StyledTertiaryTitle>
-        </StyledKnowledge>
-        <StyledKnowledge>
           <StyledTertiaryTitle>GraphQL</StyledTertiaryTitle>
         </StyledKnowledge>
         <StyledKnowledge>
